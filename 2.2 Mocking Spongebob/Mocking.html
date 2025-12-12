@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function mockString(str){
+    
+        let mocked = '';
+        for (let i = 0; i < str.length; i++) {
+        mocked += i % 2 === 0
+        ? str[i].toLowerCase()
+        : str[i].toUpperCase();
+        }
+        return mocked;
+    }
+        let mockingText = mockString("I like Javascript");
+        console.log(mockingText);
+        let mockingText2 = mockString("I wake up excited for school")
+        console.log(mockingText2)
+    </script>
+</body>
+</html>
