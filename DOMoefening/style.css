@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saturation{
+    filter:saturate(900%);
+}
+.blur{
+    filter:blur(10px);
+}
+
+.rotation{
+    rotate: 69deg;
+}
